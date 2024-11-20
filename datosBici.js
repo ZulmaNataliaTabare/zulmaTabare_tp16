@@ -9,9 +9,7 @@ function listaDeBicis() {
     return bicicletas;
 }
 
-module.exports = {
-    listaDeBicis
-};
+
 
 console.log(listaDeBicis());
 
@@ -27,3 +25,8 @@ fs.readFile('bicicletas.json', 'utf8', (err, data) => {
 
     console.log(bicicletas);
 });
+
+
+module.exports = {
+    listaDeBicis
+};
